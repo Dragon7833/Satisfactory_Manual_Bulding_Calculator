@@ -18,6 +18,7 @@ public class Calculator {
             nOutput = nOutput - nAnswer;
             ntNum1 = (nOutput * nNum1)/ntOutput;
             System.out.println(ntNum1);
+            System.exit(1);
         }
         if (nAnswer == 2) {
             System.out.println("How many of the first item is needed to craft it");
@@ -31,6 +32,7 @@ public class Calculator {
             ntNum2 = (nOutput * nNum2)/ntOutput;
             System.out.println(ntNum1);
             System.out.println(ntNum2);
+            System.exit(1);
         }
         if (nAnswer == 3) {
             System.out.println("How many of the first item is needed to craft it");
@@ -48,6 +50,7 @@ public class Calculator {
             System.out.println(ntNum1);
             System.out.println(ntNum2);
             System.out.println(ntNum3);
+            System.exit(1);
         }
         if (nAnswer == 4) {
             System.out.println("How many of the first item is needed to craft it");
@@ -69,6 +72,7 @@ public class Calculator {
             System.out.println(ntNum2);
             System.out.println(ntNum3);
             System.out.println(ntNum4);
+            System.exit(1);
         }
     }
 }
