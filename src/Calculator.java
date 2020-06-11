@@ -13,6 +13,9 @@ public class Calculator {
         if (nAnswer == 1) {
             System.out.println("How many of the item is needed to craft it");
             nNum1 = sin.nextInt();
+            System.out.println("How many do you have");
+            nAnswer = sin.nextInt();
+            nOutput = nOutput - nAnswer;
             ntNum1 = (nOutput * nNum1)/ntOutput;
             System.out.println(ntNum1);
         }
@@ -21,6 +24,9 @@ public class Calculator {
             nNum1 = sin.nextInt();
             System.out.println("How many of the second item is needed to craft it");
             nNum2 = sin.nextInt();
+            System.out.println("How many do you have");
+            nAnswer = sin.nextInt();
+            nOutput = nOutput - nAnswer;
             ntNum1 = (nOutput * nNum1)/ntOutput;
             ntNum2 = (nOutput * nNum2)/ntOutput;
             System.out.println(ntNum1);
@@ -33,6 +39,9 @@ public class Calculator {
             nNum2 = sin.nextInt();
             System.out.println("How many of the third item is needed to craft it");
             nNum3 = sin.nextInt();
+            System.out.println("How many do you have");
+            nAnswer = sin.nextInt();
+            nOutput = nOutput - nAnswer;
             ntNum1 = (nOutput * nNum1)/ntOutput;
             ntNum2 = (nOutput * nNum2)/ntOutput;
             ntNum3 = (nOutput * nNum3)/ntOutput;
@@ -49,6 +58,9 @@ public class Calculator {
             nNum3 = sin.nextInt();
             System.out.println("How many of the fourth item is needed to craft it");
             nNum4 = sin.nextInt();
+            System.out.println("How many do you have");
+            nAnswer = sin.nextInt();
+            nOutput = nOutput - nAnswer;
             ntNum1 = (nOutput * nNum1)/ntOutput;
             ntNum2 = (nOutput * nNum2)/ntOutput;
             ntNum3 = (nOutput * nNum3)/ntOutput;
